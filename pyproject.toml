@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "journal"
+version = "0.0.1"
+description = "A C/S architecture service for personal blog"
+authors = ["Chaojie Yan <ushareroses@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+Quart = "0.20.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "9.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
